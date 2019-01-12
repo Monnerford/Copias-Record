@@ -5,7 +5,7 @@ import PyPDF2, os, sys
 
 #cambio CWD para usar las carpetas helper que vienen en el paquete
 os.chdir(os.path.dirname(sys.argv[0]))
-formato = input('Introduzca formato (A1, A3, A4):')
+formato = input('Introduzca formato (A1, A3, A4): ')
 pdfWatermarkReader = PyPDF2.PdfFileReader(open('.\\watermark\\watermark_%s.pdf' % (formato), 'rb'))
 
 # Get all the PDF filenames.
