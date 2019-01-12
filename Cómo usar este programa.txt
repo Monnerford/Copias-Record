@@ -1,0 +1,10 @@
+* Instalación: ejecutar setup.bat para crear las carpetas necesarias.
+* Marcas de agua: usar la carpeta de marcas de agua ya sea con las existentes o con 
+	otros documentos en pdf.
+* Guardar en la carpeta pdfs todos los pdfs que vayan a formar parte de la copia record.
+* Ejecutar el programa. Se nos pedirá un nombre del documento de watermark. Luego de esto, 
+	se nos pedirá un nombre de documento de destino. El archivo se creará en la carpeta 
+	copia_record.
+* Para vaciar las carpetas de pdfs y de copias record, ejecutar el limpiador incluido en el paquete.
+
+* Este programa requiere el intérprete de Python 3 y la librería pyPDF2, disponible en github.
